@@ -1,0 +1,183 @@
+/* Global -- Element CSS */
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+#features {
+  margin: 100px auto;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+.rotateimg30 {
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+  margin: 50px 0 0 50px;
+  width: 250px;
+}
+/* dealing with title image in hacked up fashion (not using z-index) */
+
+/* .max-h {
+  max-height: 350px;
+} */
+
+.max-h {
+  margin-bottom:-150px;
+}
+
+.nav-link {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 100;
+  margin: 0 20px;
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: black !important;
+}
+
+.topcontainer {
+  overflow: hidden;
+}
+
+h3 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 700;
+}
+
+.feature-p {
+  color: #8f8f8f
+}
+
+.featured-div {
+  text-align: center;
+  padding: 4%;
+}
+
+.bigger-icon {
+  color: #ef8172;
+  margin: 0 0 10px 0;
+}
+
+.bigger-icon:hover {
+  color: #ff4c68;
+}
+
+.hero-h1 {
+  min-width: 440px;
+  color: white;
+}
+
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  text-align: center;
+  padding: 0 0 3% 0;
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 7% 0 3% 0;
+}
+
+
+
+@media (max-width:992px) {
+  .rotateimg30 {
+    position: static;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    margin:50px 0 0 0;
+    width:400px;
+  }
+    .max-h {
+      margin-bottom:0;
+      text-align:center;
+      padding-bottom:50px;
+    }
+    .title-text-div {
+      text-align:center;
+    }
+}
+#cta {
+  padding:40px 40px 100px 40px;
+  background-color:#ff4c68;
+  text-align:center;
+}
+.cta-h1 {
+  width:80%;
+  margin:30px auto;
+  color:white;
+}
+#footer {
+  text-align:center;
+  padding:40px;
+  background-color: white;
+}
+.footer-p {
+  color:#8f8f8f;
+}
+.footer-icon {
+  display:block-inline;
+  margin:10px;
+}
